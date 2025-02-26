@@ -1,13 +1,10 @@
 # Portfolio Part 1: Component Brainstorming
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **Due Date**: <!-- TODO: fill with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Name**: Adeel Khatri
+- **Dot Number**: khatri.94
+- **Due Date**: Due Date
 
 ## Assignment Overview
-
-<!-- TODO: read the assignment overview then delete this comment -->
-
 The overall goal of the portfolio project is to have you design and implement
 your own OSU component. There are no limits to what you choose to design and
 implement, but your component must fit within the constraints of our software
@@ -28,9 +25,6 @@ detailed feedback, which may help you decide which component to ultimately
 implement.
 
 ## Assignment Checklist
-
-<!-- TODO: browse the checklist then delete this comment -->
-
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
 opening the TODOs window from the sidebar. The icon looks like a tree and will
@@ -51,9 +45,6 @@ to the tree diagram (you may remove this one as well):
 ```
 
 ## Assignment Learning Objectives
-
-<!-- TODO: read the assignment learning objectives then delete this comment -->
-
 Without learning objectives, there really is no clear reason why a particular
 assessment or activity exists. Therefore, to be completely transparent, here is
 what we're hoping you will learn through this particular aspect of the portfolio
@@ -66,9 +57,6 @@ project. Specifically, students should be able to:
    discipline
 
 ## Assignment Rubric: 10 Points
-
-<!-- TODO: read the assignment rubric then delete this comment -->
-
 Again, to be completely transparent, most of the portfolio project, except the
 final submission, is designed as a formative assessment. Formative assessments
 are meant to provide ongoing feedback in the learning process. Therefore,
@@ -106,23 +94,19 @@ Below is further rationale/explanation for the rubric items above:
 > brainstorming. Plus it helps us get to know you better! Feel free to share
 > images in this section.
 
-<!-- TODO: briefly talk about your interests then delete this comment.
-Also, protip: you can preview what your response looks like by hitting
-the magnifying glass icon in the upper-right corner or pressing CTRL+K and
-then V. This kind of button combination is called a chord, for whatever
-reason -->
+My career goals and hobbies are intertwined a bit. For my career, I want to make
+a meaningful contribution to the advancement of science. I'm inspired by famous
+scientists in the past and modern mathmeticians alike. What they were able to accomplish
+is outstanding and I want to be at the likes of them. This also relates to my hobbies, as
+I enjoy learning more about math. As strange as it might sounds, I truly do enjoy learning
+as a hobby and passion.
 
 ## Assignment
-
-<!-- TODO: read the assignment section then delete this comment -->
-
 As previously stated, you are tasked with brainstorming 3 possible components.
 To aid you in this process, we have provided [some example components][example-components]
 that may help you in your brainstorming. All of these components were made at
 some point by one of your peers, so you should feel confident that you can
 accomplish any of them.
-
-<!-- TODO: browse the list of possible projects then delete this comment -->
 
 There is no requirement that you use any of the components listed above.
 If you want to model something else, go for it! Very common early object
@@ -131,9 +115,6 @@ etc. Make of this whatever seems interesting to you, and keep in mind that
 you're just brainstorming right now. You do not have to commit to anything.
 
 ### Example Component
-
-<!-- TODO: review this example component then delete this comment -->
-
 To help you brainstorm a few components, we've provided an example below of a
 component you already know well: NaturalNumber. We highly recommend that you
 mirror the formatting as close as possible in your designs. By following this
@@ -200,78 +181,97 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: <!-- TODO: give component a name then delete this comment -->
+- Component Design #1: Group
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - This component takes a set and applies a binary operation to it, thus making it
+    a mathematical group. From here, you can check its properties
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - id()
+    - order()
+    - inverse()
+    - operation(T x, T y)
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - Boolean abelian()
+    - Boolean cyclic()
+    - subgroup()
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - yes it would need to be able to add and remove elements.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Although not necessary, it may prove to be helpful to use the Set classes
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - No it would not, the methods are dependent on the unique set and the operand
+      defined.
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes you can, you can use the opreation() method for all the elements of the Group
+      and use the results, seeing if they are all commutative, to show it is abelian
 
-- Component Design #2: <!-- TODO: give component a name then delete this comment -->
+- Component Design #2: Graph
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - The component is a mathematical graph, which is composed of nodes and edges,
+    each of which have their own given weights and direction.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - addNode()
+    - removeNode()
+    - connect(T node1, T node2)
+    - contains()
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - path()
+    - pathLength()
+    - equals()
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, we can add nodes and edges
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - it could benefit from Map.Pair to hold specific weights for edges, but it
+      might not be necessary
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - It would not need any constants.
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - You can inductivly check for edges between nodes, which then confirms the existance
+      of a path.
 
-- Component Design #3: <!-- TODO: give component a name then delete this comment -->
+- Component Design #3: Matrix
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - This is like a 2d Array, a math matrix, which incudes methods in the component
+    to analize the matrix.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - set()
+    - remove()
+    - transpose()
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - multiply(Matrix x)
+    - inverse()
+    - equals()
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - This is immutable, so the matrix is predefined in size.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - It could benefit from Arrays, but that may hinder the applications so
+      I may not use it
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - No, it would not.
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - We can use the transpse method get the inversde matrix using the comon inverse formula.
 
 ## Post-Assignment
 
 The following sections detail everything that you should do once you've
 completed the assignment.
 
-### Changelog
-
-<!-- TODO: create CHANGELOG then delete this comment -->
-
+### CHANGELOG
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
 Since this is likely the first time you've done this, we would recommend
@@ -288,13 +288,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
-## YYYY.MM.DD
+## 2025.02.21
 
 ### Added
 
-- Designed a <!-- insert name of component 1 here --> component
-- Designed a <!-- insert name of component 2 here --> component
-- Designed a <!-- insert name of component 3 here --> component
+- Designed a group component
+- Designed a graph component
+- Designed a matrix component
 ```
 
 Here `YYYY.MM.DD` would be the date of your submission, such as 2024.04.21.
@@ -307,10 +307,7 @@ In the future, the CHANGELOG will be used to document changes in your
 designs, so we can gauge your progress. Please keep it updated at each stage
 of development.
 
-### Submission
-
-<!-- TODO: read the submission instructions then delete this comment -->
-
+### submission
 If you have completed the assignment using this template, we recommend that
 you convert it to a PDF before submission. If you're not sure how, check out
 this [Markdown to PDF guide][markdown-to-pdf-guide]. However, PDFs should be
@@ -319,12 +316,7 @@ all your work is there before submitting. For future assignments, you will
 just be submitting a link to a pull request. This will be the only time
 you have to submit any PDFs.
 
-<!-- TODO: upload a PDF of this document and the CHANGELOG to Carmen then delete this comment -->
-
-### Peer Review
-
-<!-- TODO: review the peer review guidelines then delete this comment -->
-
+### Peer review
 Following the completion of this assignment, you will be assigned three
 students' component brainstorming assignments for review. Your job during the
 peer review process is to help your peers flesh out their designs. Specifically,
@@ -349,8 +341,6 @@ PDF to read this rubric as a table).
 If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
-
-<!-- TODO: follow the link to share your feedback then delete this comment -->
 
 [example-components]: https://therenegadecoder.com/code/the-never-ending-list-of-small-programming-project-ideas/
 [markdown-to-pdf-guide]: https://therenegadecoder.com/blog/how-to-convert-markdown-to-a-pdf-3-quick-solutions/

@@ -1,12 +1,10 @@
 # Portfolio Part 2: Component Proof-of-Concept
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
+- **Name**: Adeel Khatri
+- **Dot Number**: khatri.94
 - **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
 
 ## Assignment Overview
-
-<!-- TODO: read the assignment overview then delete this comment -->
 
 Previously, you brainstormed three ideas, and hopefully you got some feedback as
 well. However, it's impossible to know how reasonable your design actually is
@@ -29,9 +27,6 @@ Because this may ultimately be something you want to share with employers,
 the more work you can put in now, the better.
 
 ## Assignment Checklist
-
-<!-- TODO: browse the checklist then delete this comment -->
-
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
 opening the TODOs window from the sidebar. The icon looks like a tree and will
@@ -52,9 +47,6 @@ to the tree diagram (you may remove this one as well):
 ```
 
 ## Assignment Learning Objectives
-
-<!-- TODO: read the assignment learning objectives then delete this comment -->
-
 Without learning objectives, there really is no clear reason why a particular
 assessment or activity exists. Therefore, to be completely transparent, here is
 what we're hoping you will learn through this particular aspect of the portfolio
@@ -67,9 +59,6 @@ project. Specifically, students should be able to:
 3. Assemble a minimal working implementation of one of their designs
 
 ## Assignment Rubric: 10 Points
-
-<!-- TODO: read the assignment rubric then delete this comment -->
-
 Again, to be completely transparent, most of the portfolio project, except the
 final submission, is designed as a formative assessment. Formative assessments
 are meant to provide ongoing feedback in the learning process. Therefore,
@@ -114,8 +103,12 @@ Below is further rationale/explanation for the rubric items above:
 > to create a new design. In you do end up picking one at random, you should
 > disclose that here as well.
 
-<!-- TODO: briefly argue your choice of design or design something
-new; then delete this comment -->
+I've decided to choose groups, over graphs and matricies, for the main reason that
+I find it the best to implement. Although matricies have a great deal of potential
+in real world applications, they already somewhat exist in the form of 2d arrays.
+And the dispute between graphs and groups lies in the fact that I do not possess enough
+knowledge about graphs, such that I am comforatble creating a detailed component
+revolving around them. Groups on the other hand, I am much more familiar with.
 
 > Once you've argued your choice of design, make a branch in your new repo called
 > something like `proof-of-concept`. There are many ways to do this, but my
